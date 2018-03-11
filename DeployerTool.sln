@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9AE94171-95DC-4CDF-A7A2-F3BDB9895C36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engines", "Engines", "{0AC2AA99-BEA3-42B1-A070-8059689C78F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trackers", "Trackers", "{F2FD7324-BAD8-4D21-9A69-78719D858C15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTool.Core", "DeployerTool.Core\DeployerTool.Core.csproj", "{231775B5-1DCE-46BD-AEA8-C914B3392AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTool.NetFrameworkEngine", "DeployerTool.NetFrameworkEngine\DeployerTool.NetFrameworkEngine.csproj", "{F63DBD68-5084-4A00-9012-A82F02105398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTool.MongoDbTracker", "DeployerTool.MongoDbTracker\DeployerTool.MongoDbTracker.csproj", "{A5915C34-DB4A-44A2-8093-1262430A711D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTool.CompositeEngine", "DeployerTool.CompositeEngine\DeployerTool.CompositeEngine.csproj", "{1D79255A-9825-4A33-B30E-8E5FAB32CCBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTool.PostgresSqlConnectionEngine", "DeployerTool.PostgresSqlConnectionEngine\DeployerTool.PostgresSqlConnectionEngine.csproj", "{888EF0CF-29DD-4194-BAAA-7C788BE3D3E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployerTool.DbConnectionEngine", "DeployerTool.DbConnectionEngine\DeployerTool.DbConnectionEngine.csproj", "{C452DFB5-7F7B-494F-ADAF-8F6CFA6B07A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{231775B5-1DCE-46BD-AEA8-C914B3392AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{231775B5-1DCE-46BD-AEA8-C914B3392AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{231775B5-1DCE-46BD-AEA8-C914B3392AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{231775B5-1DCE-46BD-AEA8-C914B3392AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63DBD68-5084-4A00-9012-A82F02105398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63DBD68-5084-4A00-9012-A82F02105398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63DBD68-5084-4A00-9012-A82F02105398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63DBD68-5084-4A00-9012-A82F02105398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5915C34-DB4A-44A2-8093-1262430A711D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5915C34-DB4A-44A2-8093-1262430A711D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5915C34-DB4A-44A2-8093-1262430A711D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5915C34-DB4A-44A2-8093-1262430A711D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D79255A-9825-4A33-B30E-8E5FAB32CCBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D79255A-9825-4A33-B30E-8E5FAB32CCBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D79255A-9825-4A33-B30E-8E5FAB32CCBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D79255A-9825-4A33-B30E-8E5FAB32CCBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888EF0CF-29DD-4194-BAAA-7C788BE3D3E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888EF0CF-29DD-4194-BAAA-7C788BE3D3E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888EF0CF-29DD-4194-BAAA-7C788BE3D3E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888EF0CF-29DD-4194-BAAA-7C788BE3D3E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C452DFB5-7F7B-494F-ADAF-8F6CFA6B07A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C452DFB5-7F7B-494F-ADAF-8F6CFA6B07A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C452DFB5-7F7B-494F-ADAF-8F6CFA6B07A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C452DFB5-7F7B-494F-ADAF-8F6CFA6B07A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{231775B5-1DCE-46BD-AEA8-C914B3392AB5} = {9AE94171-95DC-4CDF-A7A2-F3BDB9895C36}
+		{F63DBD68-5084-4A00-9012-A82F02105398} = {0AC2AA99-BEA3-42B1-A070-8059689C78F6}
+		{A5915C34-DB4A-44A2-8093-1262430A711D} = {F2FD7324-BAD8-4D21-9A69-78719D858C15}
+		{1D79255A-9825-4A33-B30E-8E5FAB32CCBD} = {0AC2AA99-BEA3-42B1-A070-8059689C78F6}
+		{888EF0CF-29DD-4194-BAAA-7C788BE3D3E0} = {0AC2AA99-BEA3-42B1-A070-8059689C78F6}
+		{C452DFB5-7F7B-494F-ADAF-8F6CFA6B07A5} = {0AC2AA99-BEA3-42B1-A070-8059689C78F6}
+	EndGlobalSection
+EndGlobal
